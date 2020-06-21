@@ -1,0 +1,46 @@
+#imagegrid{
+    height: 1600px;
+}
+.rowa{
+    float: left;
+    padding-left: 5%;
+}
+.rowformat{
+    object-fit: fill;
+    width: 15%;
+    height: 200px;
+}
+.rowformat180{
+    object-fit: fill;
+    width: 15%;
+    height: 200px;
+    transform: rotate(180deg);
+}
+.rowformat90{
+    object-fit: fill;
+    width: 15%;
+    height: 200px;
+    overflow: hidden;
+    transform: rotate(90deg);
+}
+
+/*.rowformat:hover{
+    position: relative;
+    width: 20%;
+    height: 300px;
+}*/
+@media screen and (max-width: 1000px){
+  .rowformat{
+      height: 100px;
+  }
+  .rowformat180{
+      height: 100px;
+  }
+  .rowformat90{
+    height: 100px;
+}
+  #imagegrid{
+      height: 900px;
+  }
+
+}

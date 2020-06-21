@@ -1,0 +1,183 @@
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900)" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+    <title>QuaranGreen.org</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    
+    <link rel="stylesheet" href="main.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>	
+    <script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.toggle').click(function() {
+            $('ul').toggleClass('active');
+        })
+    })
+</script>
+
+
+<body>
+    <section class="title" id="pageindex">
+      
+          <header>
+              <a name="top"></a>
+            <a href="index.html"><img src="img/QuaranGreeen LOGO.png" id="logosabc" ></a>
+            <div class="dropdownabc2">
+              <button class="dropbtnabc2">Menu 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-contentabc2">
+                <a href="about.html">Our Story</a>
+                <a href="response.html">Community Response</a>
+                <a href="volunteer.html">Volunteering</a>
+                <a href="donate.html">Donate</a>
+                <a href="partners.html">Community Partners</a>
+                <a href="press.html">Media Coverage</a>
+                <a href="recognition.html">Awards and Grants</a>
+                <a href="contact.html">Contact</a>      
+              </div>
+            </div> 
+            <ul class="navbarabc">
+             
+                <div class="dropdownabc">
+                    <button class="dropbtnabc">Our Story 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-contentabc">
+                      <a href="about.html">Our Story</a>
+                      <a href="response.html">Community Response</a>
+                    </div>
+                  </div> 
+                <div class="dropdownabc">
+                    <button class="dropbtnabc">Get Involved 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-contentabc">
+                      <a href="volunteer.html">Volunteering</a>
+                      <a href="donate.html">Donate</a>
+                      <a href="partners.html">Community Partners</a>
+                    </div>
+                  </div> 
+                  <div class="dropdownabc">
+                      <button class="dropbtnabc">Recognition 
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-contentabc">
+                        <a href="press.html">Media Coverage</a>
+                        <a href="recognition.html">Awards and Grants</a>
+                      </div>
+                    </div> 
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+        <div >
+          <p class="firstPage"><span style="background-color: rgba(0,0,0,.1)">
+            Lettuce grow through struggle,  <br>
+            reconnect our communities, <br>
+            and strive for the greener future ahead.</span>
+            
+          </p>
+        </div>
+        <!-- <svg class="intro go" viewBox="0 0 200 86">
+            <text text-anchor="start" x="70" y="20" class="text text-stroke" clip-path="url(#text1)">Young Minds,</text>
+            <text text-anchor="start" x="70" y="25" class="text text-stroke" clip-path="url(#text2)">Big Solutions.</text>
+            <text text-anchor="start" x="70" y="20" class="text text-stroke text-stroke-2" clip-path="url(#text1)">Young Minds,</text>
+            <text text-anchor="start" x="70" y="25" class="text text-stroke text-stroke-2" clip-path="url(#text2)">Big Solutions.</text>
+            <defs>
+                <clipPath id="text1">
+                    <text text-anchor="start" x="70" y="20" class="text">Young Minds,</text>
+                </clipPath>
+                <clipPath id="text2">
+                    <text text-anchor="start" x="70" y="25" class="text">Big Solutions.</text>
+                </clipPath>
+            </defs>
+        </svg>-->
+        <div class="wrapper">
+            <div class="counter col_fourth">
+              <i class="fas fa-house-user fa-2x"></i>
+              <h2 class="timer count-title count-number" data-to="2180" data-speed="1500"></h2>
+               <p class="count-text ">Households Served</p>
+            </div>
+        
+            <div class="counter col_fourth">
+              <i class="fas fa-hands-helping fa-2x"></i>
+              <h2 class="timer count-title count-number" data-to="147" data-speed="1500"></h2>
+              <p class="count-text ">Volunteers</p>
+            </div>
+        
+            <div class="counter col_fourth">  
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+              <h2 class="timer count-title count-number" data-to="25" data-speed="1500"></h2>
+              <p class="count-text ">Cities and Towns</p>
+            </div>
+        
+            
+        </div>
+        <a href="#pageonehalf" class="ca3-scroll-down-link ca3-scroll-down-arrowb" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
+    </section>
+    
+    <section id = "pageonehalf"><a href="pageonehalf"></a>
+        
+        <h4>
+            QuaranGreen
+        </h4> 
+        <div class ="bodybackground">
+        <div class = "bodytext">
+            <b>
+                QuaranGreen is a youth-run Massachusetts-based non-profit that is dedicated in providing healthy eating habits and reducing stress through gardening.  <em> #Lettuce Grow </em>  
+              </b>
+        </div>     
+      </div>
+      <h5>
+        Where we operate:
+        <br>
+        <br>
+      </h8>
+      <div id="mapid" class="mapid"></div>
+      </section> 
+     
+        
+<div class= "whitespace"></div>
+<link rel="stylesheet" href="footer.css" type="text/css" media="all">
+<footer>
+    <div class="footertop">
+        <div class="footerheader">
+            <h11>
+                Will you join us in going green?
+            </h11>
+        </div>
+        
+        <div class="social-menu">
+          
+            <ul>
+                <li><a href="https://www.facebook.com/QuaranGr/"target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/quarangreen?lang=en"  target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/quarangreen/?viewAsMember=true"target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+              <a href="#top" class= "top"><i class="fas fa-arrow-up"></i>To top </a>
+              <div class= "footertxtarea">
+                  <p class= "footertxt">
+                        Copyright <i class="far fa-copyright "></i> 2020 QuaranGreen. All Rights Reserved. 
+                  </p>
+              </div>
+   
+        
+   
+      
+  
+ 
+
+</footer>
+<script type="text/javascript" src="map.js"></script>
