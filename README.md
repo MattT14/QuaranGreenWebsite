@@ -4,7 +4,7 @@ QuaranGreen is a student-led Massachusetts-based nonprofit that I founded to ser
 
 ## Built With
 
-* [jQuery]https://jquery.com) - JS Library 
+* [jQuery](https://jquery.com) - JS Library 
 * [Bootstrap](https://getbootstrap.com) - Web Frameworks
 
 ## Versioning
